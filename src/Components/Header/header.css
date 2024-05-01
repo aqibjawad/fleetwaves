@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+  background-color: orangered;
+  overflow: hidden;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .nav-links {
+      margin-top: 1rem;
+  }
+
+  .nav-links li {
+      margin: 0.5rem 0;
+  }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 7rem;
+}
+
+.logo img {
+  height: 40px;
+  width: auto;
+  margin-right: 10px;
+}
+
+.logo span {
+  color: black;
+  font-size: 20px;
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-left: 10rem;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #F5881B;
+}
+
+.button-container {
+  margin-left: auto;
+}
+
+.nav-button {
+  padding: 10px 10px;
+  background-color: #F5881B;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5rem;
+}
+
+.nav-button:hover {
+  background-color: #F5881B;
+}
+
+/* ---------------------------------------- Mobile Header CSS -------------------------------------------- */
+
+#left-sidebar p {
+  font-size: 15px;
+}
+
+#left-sidebar .bm-burger-button {
+  position: absolute;
+  width: 25px;
+  height: 17px;
+  left: 8px;
+  top: 25px;
+  color: white !important;
+}
+
+#left-sidebar .bm-burger-bars {
+  background-color: black;
+}
+
+#left-sidebar .bm-cross-button {
+  height: 24px;
+  width: 24px;
+  margin-top: 30px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+#left-sidebar .bm-cross {
+  background: white;
+}
+
+#left-sidebar .bm-menu-wrap {
+  position: fixed;
+  width: 40% !important;
+  background-color: #333333   ;
+}
+
+#left-sidebar .bm-menu {
+  padding: 0em 1.5em 0;
+  font-size: 1.15em;
+  margin-left: -40px;
+}
+
+#left-sidebar .bm-morph-shape {
+  fill: #373a47;
+}
+
+#left-sidebar .bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+  margin-top: 3rem;
+}
+
+#left-sidebar .bm-item {
+  display: inline-block;
+}
+
+#left-sidebar .bm-overlay {
+  background: black;
+  height: 0%!important;
+}
+

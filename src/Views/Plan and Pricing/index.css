@@ -1,0 +1,7 @@
+#back-image{
+    background-image: url(/public/images/pricepicture.webp);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

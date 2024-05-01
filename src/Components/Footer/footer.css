@@ -1,0 +1,79 @@
+.fotter{
+    background-color: #E87700;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two equal-width columns */
+    padding: 20px; /* Adjust padding as needed */
+    grid-gap: 20px; /* Add gap between grid items */
+}
+
+.footer-column {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .footer-column {
+      text-align: center;
+  }
+
+  .footer-button {
+      margin-top: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer-title {
+      font-size: 18px;
+  }
+}
+
+
+.footer-title {
+    grid-column: 1 / span 2; /* Span across both columns */
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin-top: 0; /* Reset margin-top */
+}
+
+.facebook-footer{
+    font-size: 30px;
+    color: white;
+}
+
+.insta-footer{
+    font-size: 30px;
+    color: white;
+    margin-left: 1rem;
+}
+
+.fotter-button {
+    padding: 10px 10px;
+    background-color: #F5881B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+  }
+  
+  .fotter-button:hover {
+    background-color: black;
+  }
+
+  .footer-links{
+    margin-top: 3rem;
+    color: white;
+  }
+
+  .footer-plan{
+    margin-left: 2rem;
+  }
+
+  .email{
+    color: white;
+    margin-top: 5rem;
+    font-size: 25px;
+    }

@@ -1,0 +1,80 @@
+/* ---------------Services Banner ------------------------ */
+
+.service-banner{
+    font-size: 40px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    font-weight: bolder;
+    margin-top: 3rem;
+}
+
+.servicees-text{
+    text-align: left;
+    font-size: 16px;
+}
+
+
+/* For small devices (phones) */
+@media (max-width: 576px) {
+    .service-banner {
+      font-size: 1.2rem;
+    }
+  }
+  
+  /* For medium devices (tablets) */
+  @media (min-width: 576px) and (max-width: 768px) {
+    .service-banner {
+      font-size: 1.4rem;
+    }
+  }
+  
+  /* For large devices (desktops) */
+  @media (min-width: 768px) {
+    .service-banner {
+      font-size: 1.6rem;
+    }
+  }
+  
+
+/* --------------------Service Reports --------------------------- */
+
+.card{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    background-Color: #ffffff;
+    margin-Bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Adjust the value as needed */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adjust the values as needed */
+    background-color: orange; /* Change to the desired hover background color */
+  }
+
+.card h2 {
+    color: #333;
+    font-size: 20px;
+}
+
+.card p {
+    color: black; 
+    font-size: 14px;
+    margin-top: 2rem;
+    text-align: left;
+}
+
+.service-button {
+    padding: 10px 10px;
+    background-color: #F5881B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+}
+
+.service-button:hover {
+    background-color: black;
+}
